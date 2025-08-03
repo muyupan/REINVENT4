@@ -25,3 +25,9 @@ mprofile_*.dat
 # Notebooks
 .ipynb_checkpoints/
 *.ipynb
+
+*.chkpt
+*.model
+*.slurm
+slurm*
+*.json
