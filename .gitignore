@@ -31,3 +31,5 @@ mprofile_*.dat
 *.slurm
 slurm*
 *.json
+tb_TL
+*.smi
