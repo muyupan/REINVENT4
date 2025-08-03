@@ -7,8 +7,8 @@
 
 [io]
 
-smiles_file = "test.smi"
-model_file = "test.model"
+smiles_file = "20k_pilot.smi"
+model_file = "250802_try1.model"
 
 
 [network]  # hyper-parameters
@@ -22,5 +22,5 @@ standardize = true  # should be true to ensure data consistency
 
 [metadata]  # meta data for the model, information about the data source
 
-data_source = "ChEMBL 33"
-comment = "This is a test"
+data_source = "Boron molecules + Moses 10K, in total 20K"
+comment = "This is try1"

@@ -20,7 +20,7 @@ if TYPE_CHECKING:
 # NOTE: this does not validate the SMILES
 #       non-matching SMILES tokens will be dropped!
 BRACKETS = r"\[[^]]+]"  # should be: isotope? symbol chiral? hcount? charge? class?
-ALIPHATIC = r"Br?|Cl?|N|O|S|P|F|I"
+ALIPHATIC = r"Br?|Cl?|N|O|S|P|F|I|B"
 AROMATIC = r"b|c|n|o|s|p"
 BONDS = r"-|=|#|\$|:|\\|/"
 BRANCH = r"\(|\)"

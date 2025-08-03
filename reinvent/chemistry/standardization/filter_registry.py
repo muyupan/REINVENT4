@@ -13,8 +13,8 @@ from reinvent.models.reinvent.models.vocabulary import split_by, REGEXP_ORDER
 logger = logging.getLogger(__name__)
 
 # The classical Reinvent prior supports the following elements
-# C, N, O, F, S, Cl, Br
-DEFAULT_ELEMENTS = [6, 7, 8, 9, 16, 17, 35]
+# B, C, N, O, F, S, Cl, Br
+DEFAULT_ELEMENTS = [5, 6, 7, 8, 9, 16, 17, 35]
 
 NEUTRALIZE_PATTERNS = (
     ("[n+;H]", "n"),  # Imidazoles
